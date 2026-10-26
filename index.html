@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarbojit Roy · Statistician</title>
+  <meta name="description" content="Sarbojit Roy, postdoctoral researcher at the Institut de Mathématiques de Marseille (Aix-Marseille Université). High-dimensional classification, time series and nonparametric statistics.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5f5b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' fill='white' text-anchor='middle'%3ESR%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+    // Apply a saved theme before first paint to avoid a flash.
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#about">Sarbojit Roy</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#talks">Talks</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#experience">Experience</a>
+      <a href="#resources">Resources</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+    </button>
+  </header>
+
+  <div class="layout">
+    <aside class="profile">
+      <div class="avatar">
+        <img src="assets/photo.jpg" alt="Portrait of Sarbojit Roy" onerror="this.remove()">
+        <span aria-hidden="true">SR</span>
+      </div>
+      <h1>Sarbojit Roy</h1>
+      <p class="role">Postdoctoral Research Fellow</p>
+      <p class="affil">
+        <a href="https://www.i2m.univ-amu.fr/">Institut de Mathématiques de Marseille</a><br>
+        Aix-Marseille Université
+      </p>
+      <ul class="links">
+        <li><a href="mailto:sarbojit.roy@univ-amu.fr">sarbojit.roy@univ-amu.fr</a></li>
+        <li><a href="mailto:rsarbojit@gmail.com">rsarbojit@gmail.com</a></li>
+      </ul>
+      <div class="buttons">
+        <a class="btn primary" href="cv/SarbojitRoy_CV.pdf">Download CV</a>
+      </div>
+      <ul class="social">
+        <li><a href="https://orcid.org/0000-0003-1659-7318">ORCID</a></li>
+        <li><a href="https://www.researchgate.net/profile/Sarbojit-Roy">ResearchGate</a></li>
+        <li><a href="https://linkedin.com/in/sarbojit-roy-b1a9a665">LinkedIn</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p class="lead">
+          I am a postdoctoral research fellow at the
+          <a href="https://www.i2m.univ-amu.fr/">Institut de Mathématiques de Marseille</a> (I2M),
+          <a href="https://www.univ-amu.fr/">Aix-Marseille Université</a>, in the
+          Groupe Mathématiques de l’Aléatoire, working with
+          <a href="https://wms.mat.agh.edu.pl/~dudek/pl/cv.html">Professor Anna Dudek</a>.
+        </p>
+        <p>
+          I develop statistical models for analysing non-stationary biological signals.
+          Before Marseille, I was a postdoc in the Biostatistics Group at
+          <a href="https://www.kaust.edu.sa/">KAUST</a> with Professor Hernando Ombao, where I worked on
+          classification and dependence analysis of high-dimensional time series, with applications to neuroimaging.
+          I received my Ph.D. in Statistics from <a href="https://www.iitk.ac.in/">IIT Kanpur</a>, with a thesis on
+          distance-based classifiers for high-dimensional data.
+        </p>
+        <h3>Research interests</h3>
+        <ul class="tags">
+          <li>Statistical pattern recognition</li>
+          <li>High-dimensional asymptotics</li>
+          <li>Nonparametric methods</li>
+          <li>Time series</li>
+          <li>Functional data</li>
+          <li>Changepoint detection</li>
+          <li>Variable clustering</li>
+          <li>Robust statistics</li>
+          <li>Neuroimaging</li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <div class="section-head">
+          <h2>Publications</h2>
+          <a class="muted-link" href="https://orcid.org/0000-0003-1659-7318">Full record on ORCID →</a>
+        </div>
+        <div id="pub-list" aria-live="polite">
+          <p class="muted">Loading publications…</p>
+        </div>
+      </section>
+
+      <section id="talks">
+        <h2>Talks</h2>
+        <ol class="timeline">
+          <li><time>Dec 2024</time><div><strong>Interpretable classification of high-dimensional time series in spectral domain</strong><span>International Indian Statistical Association Conference, Kochi, India</span></div></li>
+          <li><time>Oct 2024</time><div><strong>Classification of high-dimensional time series in spectral domain using explainable features</strong><span>Research Presentation Series, KAUST ASA Student Chapter</span></div></li>
+          <li><time>Sep 2023</time><div><strong>Robust classification of high-dimensional data using data-adaptive energy distance</strong><span>ECML PKDD, Torino, Italy</span></div></li>
+          <li><time>Aug 2023</time><div><strong>On the use of inverse spectral density matrices for classifying high-dimensional time series</strong><span>Joint Statistical Meetings, Toronto, Canada</span></div></li>
+          <li><time>Mar 2022</time><div><strong>On some fast and robust classifiers for high dimension, low sample size data</strong><span>AISTATS 2022, Valencia, Spain</span></div></li>
+          <li><time>Dec 2019</time><div><strong>Adjustments of the nearest neighbor classifier in HDLSS settings</strong><span>Innovations in Data and Statistical Sciences, Mumbai, India</span></div></li>
+          <li><time>Aug 2019</time><div><strong>Adjustments of the nearest neighbor classifier in HDLSS settings</strong><span>62nd ISI World Statistics Congress, Kuala Lumpur, Malaysia</span></div></li>
+          <li><time>Jan 2013</time><div><strong>A revisit to Tukey’s ninther method of finding a low-effort robust estimator of location in large samples</strong><span>100th Indian Science Congress, Kolkata, India</span></div></li>
+        </ol>
+        <h3>Research visits</h3>
+        <ul class="plain">
+          <li>Department of Mathematics, University of Hamburg, Germany <span class="when">Feb 2025</span></li>
+          <li>Institute for Mathematical Stochastics, Otto von Guericke University Magdeburg, Germany <span class="when">Jan–Feb 2025</span></li>
+          <li>Department of Biological Sciences and Bioengineering, IIT Kanpur, India <span class="when">Dec 2024</span></li>
+        </ul>
+      </section>
+
+      <section id="teaching">
+        <h2>Teaching &amp; mentoring</h2>
+        <div class="cols">
+          <div>
+            <h3>Student supervision</h3>
+            <p class="muted small">Co-supervised with Prof. Hernando Ombao at KAUST.</p>
+            <ul class="plain">
+              <li>Mara Sherlin Talento, Ph.D. <span class="when">2024–</span></li>
+              <li>Malik Shahid Sultan, M.S. <span class="when">2023–2024</span></li>
+            </ul>
+            <h3>Reviewing</h3>
+            <p class="small">Annals of the Institute of Statistical Mathematics · Data Science in Science · IEEE Transactions on Medical Imaging · Journal of the American Statistical Association · Journal of Time Series Analysis · Scientific Reports</p>
+          </div>
+          <div>
+            <h3>Teaching assistant</h3>
+            <ul class="plain small">
+              <li>Time Series Analysis (KAUST, Prof. H. Ombao) <span class="when">2023</span></li>
+              <li>Introduction to Bayesian Analysis (IIT Kanpur) <span class="when">2021</span></li>
+              <li>Applied Stochastic Processes (IIT Kanpur) <span class="when">2018, 2020</span></li>
+              <li>Probability and Statistics (IIT Kanpur) <span class="when">2020</span></li>
+              <li>Introduction to Complex Analysis (IIT Kanpur) <span class="when">2017, 2019</span></li>
+              <li>Partial Differential Equations (IIT Kanpur) <span class="when">2019</span></li>
+              <li>Non-Linear Regression (IIT Kanpur) <span class="when">2019</span></li>
+              <li>Probability Theory (IIT Kanpur) <span class="when">2018</span></li>
+            </ul>
+            <p class="small muted">Harvard Higher Education Teaching Certificate, 2023.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Experience &amp; education</h2>
+        <ol class="timeline">
+          <li><time>Mar 2026 – now</time><div><strong>Postdoctoral Research Fellow</strong><span>I2M, Aix-Marseille Université, France</span></div></li>
+          <li><time>Jan 2023 – Jan 2026</time><div><strong>Postdoctoral Researcher</strong><span>Biostatistics Group, CEMSE, KAUST, Saudi Arabia</span></div></li>
+          <li><time>2022</time><div><strong>Visiting Scientist</strong><span>Theoretical Statistics and Mathematics Unit, ISI Delhi</span></div></li>
+          <li><time>2022</time><div><strong>Project Research Assistant</strong><span>Department of Mathematics, IIT Bombay: bootstrapping regression models</span></div></li>
+          <li><time>2016 – 2022</time><div><strong>Ph.D. in Statistics</strong><span>IIT Kanpur. Thesis: <em>On Some Modifications of Distance Based Classifiers for High-Dimensional Data</em></span></div></li>
+          <li><time>2015 – 2016</time><div><strong>Project Linked Person</strong><span>Sampling and Official Statistics Unit, ISI Kolkata: demand estimation for banknotes and coins (RBI)</span></div></li>
+          <li><time>2014 – 2015</time><div><strong>Econometrician</strong><span>Bravo Lucy AS: probabilistic models for sports betting odds, video analytics</span></div></li>
+          <li><time>2012 – 2014</time><div><strong>M.Sc. in Statistics</strong><span>IIT Kanpur</span></div></li>
+          <li><time>2009 – 2012</time><div><strong>B.Sc. in Statistics</strong><span>University of Calcutta</span></div></li>
+        </ol>
+        <h3>Awards &amp; fellowships</h3>
+        <ul class="plain">
+          <li>Travel support, Indian Association for Statistics in Clinical Trials <span class="when">2019</span></li>
+          <li>Asian Development Bank travel funding, ISI World Statistics Congress <span class="when">2019</span></li>
+          <li>Institute fellowship for Ph.D., IIT Kanpur <span class="when">2016–2022</span></li>
+          <li>INSPIRE scholarship, Department of Science &amp; Technology, Govt. of India <span class="when">2009–2014</span></li>
+        </ul>
+      </section>
+
+      <section id="resources">
+        <h2>Resources</h2>
+        <p class="muted">Links I have found useful.</p>
+        <ul class="plain">
+          <li><a href="https://www.youtube.com/watch?v=3sRy2Lx8HIc">Parallel computing in R (video)</a></li>
+          <li><a href="https://cran.r-project.org/web/packages/foreach/vignettes/nested.html">Nested loops with <code>foreach</code> in R</a></li>
+          <li><a href="https://rtavenar.github.io/blog/dtw.html">A clear introduction to Dynamic Time Warping</a></li>
+          <li><a href="https://www.youtube.com/watch?v=jnxqHcObNK4">Understanding wavelets (Artem Kirsanov)</a></li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>© <span id="year"></span> Sarbojit Roy · Institut de Mathématiques de Marseille, Aix-Marseille Université</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
